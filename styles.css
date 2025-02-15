@@ -1,0 +1,141 @@
+body {
+    font-family: 'Playfair Display', serif;
+    background: #f7f3e9;
+    color: #4a4a4a;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.header {
+    text-align: center;
+    color: #6b4e3d;
+    font-size: 2.5em;
+    margin-bottom: 30px;
+}
+
+.guest-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 300px;
+    margin: 0 auto 40px;
+}
+
+input {
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+button {
+    padding: 12px;
+    background: #6b4e3d;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background: #8a6c5b;
+}
+
+.event-card {
+    background: white;
+    border-radius: 8px;
+    padding: 25px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    display: none;
+}
+
+.event-card.visible {
+    display: block;
+}
+
+.event-title {
+    color: #6b4e3d;
+    margin-top: 0;
+    font-size: 1.8em;
+    font-family: Unna;
+}
+
+.event-time {
+    color: #8a6c5b;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.event-date {
+    color: #8a6c5b;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.event-location {
+    color: #8a6c5b;
+    font-weight: bold;
+    margin-bottom: 15px;
+    font-style: italic;
+}
+
+.event-attire {
+    color: #8a6c5b;
+    font-weight: bold;
+    margin-bottom: 15px;
+    font-style: italic;
+}
+
+
+.event-description {
+    line-height: 1.6;
+    color: #8a6c5b;
+}
+
+.sub-event-container {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+.sub-event {
+    display: flex;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+    color: #8a6c5b;
+}
+.sub-event-time {
+    flex: 1;
+    font-weight: bold;
+    padding-right: 20px;
+    color: #8a6c5b;
+}
+.sub-event-details {
+    color: #8a6c5b;
+    flex: 3;
+}
+.sub-event-title {
+    color: #8a6c5b;
+    font-size: 1.2em;
+    margin-bottom: 5px;
+}
+.sub-event-location {
+    color: #8a6c5b;
+    font-style: italic;
+    margin-bottom: 5px;
+}
+.sub-event-description {
+    color: #8a6c5b;
+    margin-bottom: 5px;
+}
+
+a {
+    color: #6b4e3d;
+}
