@@ -2,4 +2,4 @@ guest_list*
 encrypt_guest_list.html
 venv/
 encoded.txt
-processed_guest_list.csv
+*.csv

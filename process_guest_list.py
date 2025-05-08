@@ -17,9 +17,9 @@ df = df[columns_to_keep]
 
 # Step 3: Remap RSVP values
 rsvp_mapping = {
-    'No Response': 'Y',
+    'No Response': 'N',
     'Attending': 'Y',
-    'Regret': 'Y',
+    'Regret': 'N',
     'Not on event guest list': 'N'
 }
 
