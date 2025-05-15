@@ -95,7 +95,7 @@ const eventDetails = {
     Brunch: {
         title: "Brunch",
         date: "Monday, May 19, 2025",
-        time: "11:30 AM - 1:30 PM",
+        time: "10:00 AM - 1:00 PM",
         location: "Austin Gallery, <a href='https://maps.app.goo.gl/kNZM5V1Lz27JREebA'>One King West Hotel</a> ",
         attire: "Attire: Casual or Semi-Formal",
         description: "A warm goodbye brunch held for our furthest-travelled friends and relatives.",
